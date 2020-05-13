@@ -1,4 +1,4 @@
-# GoStack-Desafios-Conceitos
+# GoStack Desafios Conceitos
 
 ## 🚀  Sobre o desafio Node Js
 
