@@ -20,3 +20,34 @@ Essa será uma aplicação para armazenar repositórios do seu portfólio, que i
 -   **`DELETE /repositories/:id`**: A rota deve deletar o repositório com o  `id`  presente nos parâmetros da rota;
     
 -   **`POST /repositories/:id/like`**: A rota deve aumentar o número de likes do repositório específico escolhido através do  `id`  presente nos parâmetros da rota, a cada chamada dessa rota, o número de likes deve ser aumentado em 1;
+
+## 🚀  Sobre o desafio React Js
+
+Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no ReactJS!
+
+Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend no último desafio utilizando o Node.js.
+
+### Funcionalidades da aplicação
+
+Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo  **src/App.js**, e completar onde não possui código com o código para atingir os objetivos de cada funcionalidade.
+
+-   **`Listar os repositórios da sua API`**: Deve ser capaz de criar uma lista com o campo  **title**  de todos os repositórios que estão cadastrados na sua API.
+    
+-   **`Adicionar um repositório a sua API`**: Deve ser capaz de adicionar um novo item na sua API através de um botão com o texto  **Adicionar**  e, após a criação, deve ser capaz de exibir o nome dele após o cadastro.
+    
+-   **`Remover um repositório da sua API`**: Para cada item da sua lista, deve possuir um botão com o texto  **Remover**  que, ao clicar, irá chamar uma função para remover esse item da lista do seu frontend e da sua API.
+
+
+## 🚀  Sobre o desafio React Native
+
+Nesse desafio, você deve criar uma aplicação para treinar o que você aprendeu até agora no React Native!
+
+Agora você deve continuar desenvolvendo a aplicação que irá armazenar repositórios do seu portfólio, que você já desenvolveu o backend utilizando o Node.js, e no último desafio em ReactJS.
+
+### Funcionalidades da aplicação
+
+Agora que você já está com o template clonado, e pronto para continuar, você deve abrir o arquivo  **src/App.js**, e completar onde não possui código com o código para atingir os objetivos de cada funcionalidade.
+
+-   **`Listar os repositórios da sua API`**: Deve ser capaz de criar uma lista de todos os repositórios que estão cadastrados na sua API com os campos  **title**,  **techs**  e número de curtidas seguindo o padrão  `${repository.likes} curtidas`, apenas alterando o número para ser dinâmico.
+    
+-   **`Curtir um repositório listado da API`**: Deve ser capaz de curtir um item na sua API através de um botão com o texto  **Curtir**  e deve atualizar o número de likes na listagem no mobile.
